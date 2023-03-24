@@ -1,18 +1,22 @@
 #include <stdio.h>
 
 /**
- * main - prints lowercase alphebtical letters
+ * main - prints uppercase alphebtical letters
  *
  * Return: (0) Success
  */
 
 int main(void)
 {
-	char c;
+	char low;
 
-	for (c = 'a'; c <= 'z'; c++)
-	putchar(c);
+	for (low = 'a'; low <= 'z'; low++)
+	putchar(low);
+	
+	for (low = 'A'; low <= 'Z'; low++)	
+        putchar(low;) 	
 	putchar('\n');
+
 	return (0);
 
 }
